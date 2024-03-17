@@ -144,7 +144,7 @@ yudao:
     pay-notify-url: http://niubi.natapp1.cc/api/pay/order/notify
     pay-return-url: http://niubi.natapp1.cc/api/pay/order/return
     refund-notify-url: http://niubi.natapp1.cc/api/pay/refund/notify
-  demo: true # 开启演示模式
+  demo: false # 开启演示模式
   captcha:
     enable: false
 
