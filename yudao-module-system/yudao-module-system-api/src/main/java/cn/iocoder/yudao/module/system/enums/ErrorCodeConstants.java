@@ -173,5 +173,6 @@ public interface ErrorCodeConstants {
 
 
     ErrorCode APP_NOT_EXISTS = new ErrorCode(1_002_028_001, "应用不存在");
+    ErrorCode KNOWLEDGE_BASE_NOT_EXISTS = new ErrorCode(1_002_028_002, "知识库不存在");
 
 }
