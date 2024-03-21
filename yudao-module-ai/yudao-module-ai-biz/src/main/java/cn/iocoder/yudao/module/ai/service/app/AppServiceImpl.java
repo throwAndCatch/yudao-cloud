@@ -51,6 +51,7 @@ public class AppServiceImpl implements AppService {
         validateAppExists(id);
         // 删除
         appMapper.deleteById(id);
+
     }
 
     private void validateAppExists(Long id) {

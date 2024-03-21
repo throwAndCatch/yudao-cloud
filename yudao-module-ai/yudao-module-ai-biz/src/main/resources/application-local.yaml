@@ -150,3 +150,16 @@ yudao:
   error-code: # 错误码相关配置项
     enable: false
   demo: false # 关闭演示模式
+
+
+langchain:
+    host:
+    knowledgeList: /knowledge_base/list_knowledge_bases
+    knowledgeCreate: /knowledge_base/create_knowledge_bases
+    knowledgeDelete: /knowledge_base/delete_knowledge_bases
+    knowledgeListDocs: /knowledge_base/list_docs
+    knowledgeSearchDocs: /knowledge_base/search_docs
+    knowledgeUploadDocs: /knowledge_base/upload_docs
+    knowledgeDeleteDocs: /knowledge_base/delete_docs
+    knowledgeUpdateDocs: /knowledge_base/update_docs
+    knowledgeDownloadDocs: /knowledge_base/download_docs

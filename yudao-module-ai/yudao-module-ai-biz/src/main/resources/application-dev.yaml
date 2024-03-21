@@ -119,3 +119,16 @@ yudao:
       - ${spring.boot.admin.context-path}/** # 不处理 Spring Boot Admin 的请求
       - ${management.endpoints.web.base-path}/** # 不处理 Actuator 的请求
   demo: false # 开启演示模式
+
+
+langchain:
+    host:
+    knowledgeList: /knowledge_base/list_knowledge_bases
+    knowledgeCreate: /knowledge_base/create_knowledge_bases
+    knowledgeDelete: /knowledge_base/delete_knowledge_bases
+    knowledgeListDocs: /knowledge_base/list_docs
+    knowledgeSearchDocs: /knowledge_base/search_docs
+    knowledgeUploadDocs: /knowledge_base/upload_docs
+    knowledgeDeleteDocs: /knowledge_base/delete_docs
+    knowledgeUpdateDocs: /knowledge_base/update_docs
+    knowledgeDownloadDocs: /knowledge_base/download_docs

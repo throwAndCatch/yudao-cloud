@@ -51,4 +51,7 @@ public interface AppService {
      */
     PageResult<AppDO> getAppPage(AppPageReqVO pageReqVO);
 
+
+
+
 }
