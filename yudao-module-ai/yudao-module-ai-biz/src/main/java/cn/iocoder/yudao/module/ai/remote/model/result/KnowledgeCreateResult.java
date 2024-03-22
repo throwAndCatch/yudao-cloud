@@ -14,4 +14,5 @@ public class KnowledgeCreateResult extends ToString {
 
 
 
+
 }
