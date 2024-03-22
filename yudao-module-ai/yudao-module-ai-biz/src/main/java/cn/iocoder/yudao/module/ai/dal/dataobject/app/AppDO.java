@@ -32,10 +32,7 @@ public class AppDO extends BaseDO {
      * 头像地址
      */
     private String avatar;
-    /**
-     * 用户昵称
-     */
-    private String nickname;
+
     /**
      * 描述
      */

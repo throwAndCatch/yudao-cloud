@@ -20,8 +20,7 @@ public class AppPageReqVO extends PageParam {
     @Schema(description = "头像地址")
     private String avatar;
 
-    @Schema(description = "用户昵称", example = "王五")
-    private String nickname;
+
 
     @Schema(description = "描述", example = "随便")
     private String description;

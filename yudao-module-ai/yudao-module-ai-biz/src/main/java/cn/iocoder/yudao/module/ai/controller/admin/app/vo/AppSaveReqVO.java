@@ -20,9 +20,7 @@ public class AppSaveReqVO {
     @NotEmpty(message = "头像地址不能为空")
     private String avatar;
 
-    @Schema(description = "用户昵称", requiredMode = Schema.RequiredMode.REQUIRED, example = "王五")
-    @NotEmpty(message = "用户昵称不能为空")
-    private String nickname;
+
 
     @Schema(description = "描述", example = "随便")
     private String description;

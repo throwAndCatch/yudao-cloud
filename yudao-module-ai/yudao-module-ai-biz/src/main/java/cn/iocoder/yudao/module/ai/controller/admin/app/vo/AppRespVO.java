@@ -23,9 +23,6 @@ public class AppRespVO {
     @ExcelProperty("头像地址")
     private String avatar;
 
-    @Schema(description = "用户昵称", requiredMode = Schema.RequiredMode.REQUIRED, example = "王五")
-    @ExcelProperty("用户昵称")
-    private String nickname;
 
     @Schema(description = "描述", example = "随便")
     @ExcelProperty("描述")

@@ -19,7 +19,6 @@ public interface AppMapper extends BaseMapperX<AppDO> {
         return selectPage(reqVO, new LambdaQueryWrapperX<AppDO>()
                 .likeIfPresent(AppDO::getName, reqVO.getName())
                 .eqIfPresent(AppDO::getAvatar, reqVO.getAvatar())
-                .likeIfPresent(AppDO::getNickname, reqVO.getNickname())
                 .eqIfPresent(AppDO::getDescription, reqVO.getDescription())
                 .eqIfPresent(AppDO::getPrologue, reqVO.getPrologue())
                 .eqIfPresent(AppDO::getSimilarity, reqVO.getSimilarity())
